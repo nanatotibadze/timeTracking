@@ -1,0 +1,97 @@
+.heading-1 {
+  font-size: 5.6rem;
+  line-height: 6.3rem;
+  font-weight: 300;
+  padding: 1.2rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+  }
+}
+
+.heading-2 {
+  font-size: 4rem;
+  line-height: 4.7rem;
+  font-weight: 300;
+  padding: 1.2rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+}
+
+.heading-3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2rem;
+  position: relative;
+
+  &__dots {
+    color: $color-primary-light-3;
+    height: 0.5rem;
+    width: 0.5rem;
+    right: 2rem;
+    position: absolute;
+  }
+}
+
+.heading-4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: $color-primary-light-3;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    position: absolute;
+    top: 7.2rem;
+    right: 2rem;
+  }
+
+}
+
+.heading-5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: $color-primary-light-3;
+}
+
+.author {
+  margin-top: 3rem;
+  margin-left: 8rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-left: 3rem;
+    text-overflow: ellipsis;
+  }
+}
+
+
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  color: $color-primary-light-3;
+  transition: all 0.2s;
+
+}
+
+.footer__icon {
+  fill: $color-primary-light-3;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: -5px;
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -4px;
+  }
+}

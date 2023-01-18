@@ -1,0 +1,81 @@
+//color variable
+
+$color-primary-dark-1: hsl(226, 43%, 10%);
+$color-primary-dark-2: hsl(235, 46%, 20%);
+$color-primary-dark-3: #33397a;
+
+$color-primary-light-1: hsl(246, 80%, 60%);
+$color-primary-light-2: hsl(235, 45%, 61%);
+$color-primary-light-3: hsl(236, 100%, 87%);
+
+$color-white: #fff;
+
+$color-for-work: hsl(15, 100%, 70%);
+$color-for-play: hsl(195, 74%, 62%);
+$color-for-study: hsl(348, 100%, 68%);
+$color-for-exercise: hsl(145, 58%, 55%);
+$color-for-social: hsl(264, 64%, 52%);
+$color-for-selfcare: hsl(43, 84%, 65%);
+
+$font-primary: "Rubik", sans-serif;
+$border-radius: 1.5rem;
+
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+$bp-smallest: 23.4em; //375 px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  background-color: $color-primary-dark-1;
+  font-family: $font-primary;
+  color: $color-white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  margin: 15rem 8rem;
+
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+    margin: 3rem auto;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+}
+
+.main__content {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 26rem));
+  grid-template-rows: repeat(2, minmax(min-content, 24rem));
+  gap: 3rem;
+  margin-left: 3rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: repeat(1, minmax(min-content, 80vw));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 16rem));
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}

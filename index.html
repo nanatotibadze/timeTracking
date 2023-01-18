@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="icon" type="img/png" sizes="32x32" href="src/img/favicon-32x32.png">
+
+  <script defer src="src/js/controller.js" type="module"></script>
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="header">
+
+      <div class="header_content">
+
+        <div class="header__image">
+          <img src="src/img/image-jeremy.png" alt="Image of Jeremy" class="header__img">
+        </div>
+
+        <div class="header_title">
+          <h4 class="heading-5"> Report for</h3>
+            <h2 class="heading-2">Jeremy Robson</h1>
+        </div>
+
+      </div>
+
+
+      <div class="header__selection">
+        <button class="btn selection__btn" data-time-frame="daily"> Daily</button>
+        <button class="btn selection__btn" data-time-frame="weekly" id="weekly"> Weekly</button>
+        <button class="btn selection__btn" data-time-frame="monthly"> Monthly</button>
+      </div>
+
+    </div>
+
+    <div class="main__content">
+
+      <div class="content">
+        <div class="background background__work">
+          <svg class="background__icon work__background__icon">
+            <use xlink:href="src/img/svg/sprite.svg#icon-suitcase"></use>
+          </svg>
+        </div>
+
+
+        <div class="content__description">
+          <h3 class="heading-3">Work <span class="heading-3__dots">&#183;&#183;&#183;</span></h3>
+          <h1 class="heading-1"></h1>
+          <h4 class="heading-4"></h4>
+        </div>
+
+      </div>
+
+
+      <div class="content">
+        <div class="background background__play">
+          <svg class="background__icon">
+            <use xlink:href="src/img/svg/sprite.svg#icon-game-controller"></use>
+          </svg>
+
+        </div>
+
+
+        <div class="content__description">
+          <h3 class="heading-3">Play <span class="heading-3__dots">&#183;&#183;&#183;</span></h3>
+          <h1 class="heading-1"></h1>
+          <h4 class="heading-4"></h4>
+        </div>
+
+      </div>
+
+
+      <div class="content">
+        <div class="background background__study">
+          <svg class="background__icon">
+            <use xlink:href="src/img/svg/sprite.svg#icon-open-book"></use>
+          </svg>
+
+        </div>
+
+
+        <div class="content__description">
+          <h3 class="heading-3">Study<span class="heading-3__dots">&#183;&#183;&#183;</span></h3>
+          <h1 class="heading-1"></h1>
+          <h4 class="heading-4"></h4>
+        </div>
+
+
+      </div>
+
+
+      <div class="content">
+        <div class="background background__exercise">
+          <svg class="background__icon">
+            <use xlink:href="src/img/svg/sprite.svg#icon-directions_run"></use>
+          </svg>
+
+        </div>
+
+        <div class="content__description">
+          <h3 class="heading-3">Exercise <span class="heading-3__dots">&#183;&#183;&#183;</span></h3>
+          <h1 class="heading-1"></h1>
+          <h4 class="heading-4"></h4>
+        </div>
+
+
+      </div>
+
+
+      <div class="content">
+        <div class="background background__social">
+          <svg class="background__icon">
+            <use xlink:href="src/img/svg/sprite.svg#icon-chat"></use>
+          </svg>
+
+        </div>
+
+
+        <div class="content__description">
+          <h3 class="heading-3">Social<span class="heading-3__dots">&#183;&#183;&#183;</span></h3>
+          <h1 class="heading-1"></h1>
+          <h4 class="heading-4"></h4>
+        </div>
+
+
+      </div>
+
+
+      <div class="content">
+        <div class="background background__selfcare">
+          <svg class="background__icon">
+            <use xlink:href="src/img/svg/sprite.svg#icon-heart"></use>
+          </svg>
+        </div>
+
+        <div class="content__description">
+          <h3 class="heading-3">Self Care <span class="heading-3__dots">&#183;&#183;&#183;</span></h3>
+          <h1 class="heading-1"></h1>
+          <h4 class="heading-4"></h4>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+  <footer>
+    <p class="author heading-5">
+      &copy; Challenge by <a class="link" target="_blank" href="https://www.frontendmentor.io/">
+        Frontend Mentor
+      </a>. Coded by <a class="link" target="_blank" href="https://github.com/nanatotibadze">
+        <svg class="footer__icon">
+          <use xlink:href="src/img/svg/sprite.svg#icon-github"></use>
+        </svg> Nanuka Totibadze.
+      </a>
+    </p>
+
+
+  </footer>
+
+
+
+</body>
+
+</html>

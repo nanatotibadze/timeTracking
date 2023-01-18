@@ -1,0 +1,77 @@
+.content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &__description {
+    border-radius: $border-radius;
+    padding: 3rem;
+    height: 20rem;
+    background-color: $color-primary-dark-2;
+    justify-self: baseline;
+    margin-top: -45%;
+    z-index: 10;
+    position: relative;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 80vw;
+      height: 16rem;
+      margin-top: -6%;
+    }
+
+    &:hover {
+      background-color: $color-primary-dark-3;
+    }
+  }
+}
+
+
+.background {
+  height: 16rem;
+  border-radius: $border-radius;
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 80vw;
+    height: 8rem;
+  }
+
+  &__work {
+    background-color: $color-for-work;
+
+  }
+
+  &__play {
+    background-color: $color-for-play;
+  }
+
+  &__study {
+    background-color: $color-for-study;
+  }
+
+  &__exercise {
+    background-color: $color-for-exercise;
+
+  }
+
+  &__social {
+    background-color: $color-for-social;
+
+  }
+
+  &__selfcare {
+    background-color: $color-for-selfcare;
+  }
+
+  &__icon {
+    fill: #000;
+    opacity: 0.2;
+    width: 7rem;
+    height: 6rem;
+    rotate: (45deg);
+    margin-top: -12px;
+    float: right;
+    margin-right: 1.2rem;
+    overflow: hidden;
+  }
+
+}
