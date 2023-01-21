@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [https://time-tracking-dishboard-final-project.netlify.app/]
+- Live Site URL: [https://time-tracking-dashboard-final-project.netlify.app/]
 
 ## My process
 
