@@ -14,13 +14,18 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
 
+### Screenshot
+
+![](./tracking.PNG)
+
+
 
 ### Links
 
 
 - Live Site URL: [https://time-tracking-dashboard-final-project.netlify.app/]
 
-## My process
+
 
 ### Built with
 
